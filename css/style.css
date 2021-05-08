@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* utilities */
+
+.mine-logo {
+  font-size: 1.5rem;
+}
+
+.l-heading {
+  font-size: 2.5rem;
+}
+
+.m-heading {
+  font-size: 3rem;
+}
+
+/* Navigation styling */
+
+#navigation {
+  opacity: 0.9;
+  border-bottom: 3px solid #dc3545;
+}
+
+#navigation .nav-item {
+  padding: 0 1rem !important;
+  font-size: 15px;
+}
+
+#navigation .nav-item.active {
+  border-left: 3px solid #f3f3f3;
+}
+
+#navigation .nav-item .nav-link:hover {
+  border-bottom: 1px solid lightgray;
+}
+
+/* Showcase Area styling */
+
+#showcase {
+  background: url("/img/wallpaper.jpg") no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+}
+
+.dark-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Section: price */
+
+#boxes div {
+  border-radius: 20px;
+}
+
+/* Section: Client */
+
+#Carouselimg {
+  background: #333;
+  color: #fff;
+}
+
+/* Section: Contact us */
+
+#contact {
+  background: url("/img/dumbbell-1966247_1920.jpg") no-repeat center
+    center/cover;
+  background-attachment: fixed;
+}
+
+#footer {
+  padding: 20px 20px;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  border-top: 3px solid #dc3545;
+}
+
+#footer p {
+  margin: 0;
+}
